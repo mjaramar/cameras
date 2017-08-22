@@ -1,0 +1,134 @@
+<!DOCTYPE HTML>
+<!--
+	Editorial by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Visualización de Datos</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+	</head>
+	<body>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Main -->
+					<div id="main">
+						<div class="inner">
+
+							<!-- Header -->
+								<header id="header">
+									<a href="index.html" class="logo"><strong>VISDAT</strong> Práctica HTML</a>
+									<ul class="icons">
+										<li><a href="https://twitter.com/mjaramar" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
+										<li><a href="https://www.facebook.com/manjarmar" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+										<li><a href="https://www.instagram.com/jara.92/" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+									</ul>
+								</header>
+
+							<!-- Content -->
+								<section>
+									<header class="main">
+										<h1>Datos</h1>
+									</header>
+									<p>El dataset <em>Camera.csv</em> contiene 1038 observaciones sobre cámaras réflex y semiautomáticas. Consta de 13 variables:</p>
+									<ul>
+									<li><strong>Model</strong> : Modelo de la cámara.</li>
+									<li><strong>Release.date</strong> : Fecha de lanzamiento.</li>
+									<li><strong>Max.resolution</strong> : Máxima resolución (en píxeles).</li>
+									<li><strong>Low.resolution</strong> : Baja resolución (en píxeles).</li>
+									<li><strong>Effective.pixels</strong> : Píxeles efectivos (megapíxeles).</li>
+									<li><strong>Zoom.wide..W.</strong> : Zoom lente gran angular (mm).</li>
+									<li><strong>Zoom.tele..T.</strong> : Zoom teleobjetivo (mm).</li>
+									<li><strong>Normal.focus.range</strong></li>
+									<li><strong>Macro.focus.range</strong></li>
+									<li><strong>Storage.included</strong> : Almacenamiento incluído.</li>
+									<li><strong>Weight..inc..batteries.</strong> : Peso incluyendo baterías (en gramos).</li>
+									<li><strong>Dimensions</strong> : Dimensiones de la cámara.</li>
+									<li><strong>Price</strong> : Precio (en euros).</li>
+									</ul>
+									<p>Supondremos que el objetivo del estudio será identificar aquellas variables que más influyen en el precio de la cámara. Se desconoce la fecha en la que fueron tomados los datos.</p>
+									
+									<hr class="major" />
+
+									<h2>Camera.csv</h2>									
+									<p>Puede visualizar una muestra de las diez primeras observaciones del dataset en el siguiente <a href="tabla.html">enlace</a>.</p>
+									
+								</section>
+						</div>	
+					</div>
+					
+					
+
+				<!-- Sidebar -->
+					<div id="sidebar">
+						<div class="inner">
+
+							<!-- Menu -->
+							<div>
+							</div>
+								<nav id="menu">
+									<header class="major">
+										<h2>Menu</h2>
+									</header>
+									<ul>
+										<li><a href="index.html">Página principal</a></li>
+										<li><a href="datos.html">Datos</a></li>
+										<li><a href="resumen.html">Resumen descriptivo</a></li>
+										<li>
+											<span class="opener">Análisis de variables</span>
+											<ul>
+												<li><a href="analisis.html#valores-atipicos">Valores atípicos</a></li>
+												<li><a href="analisis.html#distribuciones">Distribución</a></li>
+												<li><a href="analisis.html#graficosqq">Gráficos Q-Q</a></li>
+											</ul>
+										</li>
+										<li>
+											<span class="opener">Relaciones entre variables</span>
+											<ul>
+												<li><a href="relaciones.html#pixels-price">Effective.pixels vs Price</a></li>
+												<li><a href="relaciones.html#max-min">Max.resolution vs Low.resolution</a></li>
+												<li><a href="relaciones.html#normal-macro">Normal.focus.range vs Macro.focus.range</a></li>
+											</ul>
+										</li>
+										<li><a href="conclusiones.html">Conclusiones</a></li>
+									</ul>
+								</nav>
+
+							<!-- Section -->
+								<section>
+									<header class="major">
+										<h2>Contacto</h2>
+									</header>
+									<ul class="contact">
+										<li class="fa-envelope-o"><a href="#">jarabct@gmail.com</a></li>
+									</ul>
+								</section>
+
+							<!-- Footer -->
+								<footer id="footer">
+									<p class="copyright">&copy; Untitled. All rights reserved. Demo Images: <a href="https://unsplash.com">Unsplash</a>. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+								</footer>
+
+						</div>
+					</div>
+
+			</div>
+
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
